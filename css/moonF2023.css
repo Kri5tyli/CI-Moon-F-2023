@@ -1,0 +1,237 @@
+* {
+    letter-spacing: 1px;
+}
+
+.banner-area {
+    margin-top: 100px;
+    position: relative;
+}
+
+.web-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.list-container {
+    width: 86vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title-area .title {
+    margin-top: 80px;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #b60400;
+    text-align: center;
+    cursor: default;
+}
+
+.title-area .title span {
+    position: relative;
+}
+
+.title-area .title span:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    top: 26px;
+    right: -47px;
+    width: 60px;
+    height: 55px;
+    background: url(../fittrip/images/airplane.png);
+}
+
+.information {
+    display: block;
+    margin: 7rem 1.5rem;
+}
+
+.text-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-box img {
+    /* max-width: 90px; */
+    width: 100%;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-box {
+    padding: 1rem;
+    text-align: center;
+}
+
+.text-box h3 {
+    margin: 0.6rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e85817;
+}
+
+.text-box p {
+    font-size: 1.2rem;
+    color: #414141;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.links {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20%);
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 40px;
+    margin-top: 80px;
+}
+
+.links a {
+    display: inline-block;
+    padding: 20px;
+    /* background: #ffe5db; */
+    border-radius: 15px;
+    letter-spacing: 4px;
+    text-align: center;
+    border: 1px solid #ffc2ab;
+    color: #414141;
+    transition: all .3s;
+}
+
+.links a:hover {
+    box-shadow: 0px 3px 15px #ffcccc8c;;
+    color: #b60400;
+}
+
+.links div h3 {
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.links div p {
+    font-size: .8rem;
+}
+
+.links div span {
+    color: #f84f00;
+    font-weight: 800;
+    font-size: 1.1rem;
+    letter-spacing: normal;
+}
+
+@media (max-width: 960px) {
+    .text-box h3 {
+        font-size: 1.2rem;
+    }
+
+    .text-box p {
+        font-size: 1rem;
+        line-height: 23px;
+    }
+
+    .links {
+        grid-template-columns: repeat(auto-fill, 30%);
+        grid-gap: 27px;
+    }
+
+    .links a {
+        padding: 20px 5px;
+    }
+
+    .link div p {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-area {
+        margin-top: 70px;
+    }
+
+    .title-area .title {
+        font-size: 2.2rem;
+    }
+    .web-img {
+        display: none;
+    }
+
+    .mobile-img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .title-area .title {
+        margin-bottom: -2.5rem;
+    }
+
+    .text-content {
+        flex-direction: column;
+        margin-top: 1.5rem;
+    }
+
+    .text-area {
+        margin-top: 3rem;
+    }
+
+    .links {
+        grid-template-columns: repeat(auto-fill, 46%);
+        grid-gap: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .title-area {
+        margin: 4rem 0 0;
+    }
+
+    .title-area .title {
+        margin-top: -2.2rem;
+        font-size: 1.7rem;
+    }
+
+    .title-area .title2 {
+        font-size: 0.825rem;
+    }
+
+    .information {
+        margin: 0 0 4rem 0;
+    }
+
+    .text-area {
+        margin-top: 3rem;
+    }
+
+    .icon-box img {
+        max-width: 70px;
+    }
+
+    .text-box {
+        padding: unset;
+    }
+
+    .links div h3 {
+        padding-bottom: 6px;
+        font-size: 1.125rem;
+    }
+
+    .text-box p {
+        font-size: 0.9rem;
+    }
+}
