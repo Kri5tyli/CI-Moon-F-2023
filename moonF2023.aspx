@@ -18,7 +18,7 @@
                     content="高人氣評價,歐洲旅遊,東歐旅遊,西歐旅遊,南歐旅遊,北歐旅遊,紐西蘭旅遊,澳洲旅遊,中東旅遊,美國旅遊,加拿大旅遊,郵輪,非洲旅遊,歐洲自由行,南亞旅遊" />
                 <link rel="shortcut icon" href="https://www.artisan.com.tw/images/artisan.ico">
                 <link rel="stylesheet" href="/css/normalize.css" />
-                <%-- <link rel="stylesheet" href="./css/fit230110.css"> --%>
+                <link rel="stylesheet" href="./css/moonF2023.css">
                     <!-- owl -->
                     <link rel="stylesheet" href="/css/owl.carousel.min.css" />
                     <link rel="stylesheet" href="/css/owl.theme.default.min.css" />
@@ -33,8 +33,6 @@
                         <link rel="stylesheet" type="text/css" href="/css/animate.css">
                         <link rel="stylesheet" type="text/css" href="/css/layout_2022.css" />
                         <link rel="stylesheet" type="text/css" href="/css/memberArea.css" />
-                        <link rel="stylesheet" type="text/css" href="/css/memberLogin_style.css" />
-                        <link rel="stylesheet" href="/css/ciprg2023.css">
 
                         <script src="/js/jquery-1.12.4.min.js" type="text/javascript"></script>
                         <link rel="stylesheet" type="text/css" href="/css/jquery-ui.min.css" />
@@ -130,6 +128,103 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- link -->
+                        <div class="links">
+                            <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=OKA&deptDate=2023-11-27&retDate=2023-11-29&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
+                                class="wow zoomIn">
+                                <div>
+                                    <h3>日本</h3>
+                                    <p>TWD <span class="price">10,699</span>起 </p>
+                                </div>
+                            </a>
+                            <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=ICN&deptDate=2023-11-27&retDate=2023-11-30&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
+                                class="wow zoomIn">
+                                <div>
+                                    <h3>韓國</h3>
+                                    <p>TWD <span>10,099</span>起 </p>
+                                </div>
+                            </a>
+                            <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=AMS&deptDate=2023-11-19&retDate=2023-11-29&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
+                                class="wow zoomIn">
+                                <div>
+                                    <h3>
+                                        歐洲
+                                    </h3>
+                                    <p>TWD
+                                        <span>
+                                            34,799
+                                        </span>
+                                        起
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=SYD&deptDate=2023-11-19&retDate=2023-11-28&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
+                                class="wow zoomIn">
+                                <div>
+                                    <h3>
+                                        紐澳
+                                    </h3>
+                                    <p>TWD
+                                        <span>
+                                            33,799
+                                        </span>起
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=LAX&deptDate=2023-11-20&retDate=2023-11-26&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
+                                class="wow zoomIn">
+                                <div>
+                                    <h3>北美
+                                    </h3>
+                                    <p>TWD<span>35,369</span>起
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=PVG&deptDate=2023-11-17&retDate=2023-11-21&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
+                                class="wow zoomIn">
+                                <div>
+                                    <h3>
+                                        中國
+                                    </h3>
+                                    <p>TWD
+                                        <span>
+                                            35,369
+                                        </span>起
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=HKG&deptDate=2023-11-25&retDate=2023-11-26&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
+                                class="wow zoomIn">
+                                <div>
+                                    <h3>
+                                        香港
+                                    </h3>
+                                    <p>
+                                        TWD
+                                        <span>9,199</span>起
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=CEB&deptDate=2023-11-27&retDate=2023-11-30&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
+                                class="wow zoomIn">
+                                <div>
+                                    <h3>
+                                        東南亞
+                                    </h3>
+                                    <p>
+                                        TWD
+                                        <span>
+                                            8,388
+                                        </span>起
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
 
                         <!-- footer -->
                         <uc2:Foot ID="Foot" runat="server" />
