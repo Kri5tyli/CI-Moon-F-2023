@@ -17,6 +17,7 @@
                 <meta name="keywords"
                     content="高人氣評價,歐洲旅遊,東歐旅遊,西歐旅遊,南歐旅遊,北歐旅遊,紐西蘭旅遊,澳洲旅遊,中東旅遊,美國旅遊,加拿大旅遊,郵輪,非洲旅遊,歐洲自由行,南亞旅遊" />
                 <link rel="shortcut icon" href="https://www.artisan.com.tw/images/artisan.ico">
+                <link rel="shortcut icon" href="https://www.artisan.com.tw/images/artisan.ico">
                 <link rel="stylesheet" href="/css/normalize.css" />
                 <link rel="stylesheet" href="./css/moonF2023.css">
                 <!-- owl -->
@@ -197,7 +198,7 @@
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=HKG&deptDate=2023-11-25&retDate=2023-11-26&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
+                                        <a href="https://cs.sabretn.com.tw/artisan/search/?trip=Return&depCity=TPE&arrCity=CEB&deptDate=2023-11-27&retDate=2023-11-30&paxTypeADT=1&airlineCode=CI&classOfService=Y&stopCount=0"
                                             class="wow zoomIn">
                                             <div class="area-img">
                                                 <img src="./images/Vietnam.jpg" alt="">
@@ -297,21 +298,6 @@
                                 });
                             });
                         });
-
-                        // $(window).on('load', function() {
-                        // $('.loading_mask').fadeOut(300);
-                        //公告圖
-                        // var nowDate = new Date();
-                        //公告關閉時間
-                        //月份從0開始
-                        // var endDate = new Date(2021, 4, 13);
-                        // if ((endDate - nowDate) > 0) {
-                        // $('.billboard').fadeIn(500);
-                        // $(".billboard_close,.billboard").on('click', function() {
-                        // $('.billboard').fadeOut(500);
-                        // });
-                        // }
-                        // });
 
                         $(function () {
                             setTimeout(function () {
