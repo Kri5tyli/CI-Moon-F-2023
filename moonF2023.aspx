@@ -102,7 +102,7 @@
                                         </div>
                                         <div class="text-area wow pulse" data-wow-duration=".7s" data-wow-delay=".3s">
                                             <div class="icon-box">
-                                                <img src="./images/calendar(1).png" alt="">
+                                                <img src="./images/calendar(2).png" alt="">
                                             </div>
                                             <div class="text-box">
                                                 <h3>
